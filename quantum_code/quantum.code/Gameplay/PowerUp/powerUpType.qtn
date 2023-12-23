@@ -1,0 +1,6 @@
+﻿enum PowerUpType {
+    BombAmount,
+    ExplosionReach,
+    MovementSpeed,
+    Curse
+}

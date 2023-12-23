@@ -1,0 +1,5 @@
+﻿enum GameSessionState {
+    Starting,
+    Playing,
+    Ending,
+}

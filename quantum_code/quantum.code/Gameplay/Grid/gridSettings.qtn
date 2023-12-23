@@ -1,0 +1,8 @@
+struct GridSettings {
+    byte Width;
+    byte Height;
+    byte CellSize;
+    byte SpawnPointMinDistance;
+    GridType Type;
+    bool AutoAdjustSize;
+}

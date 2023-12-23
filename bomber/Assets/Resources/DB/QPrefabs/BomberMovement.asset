@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee7f1c5859ef1af47b6c3845123ae06d, type: 3}
+  m_Name: BomberMovement
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/QPrefabs/BomberMovement
+      Guid:
+        Value: 595998458359304992
+    Acceleration:
+      RawValue: 1310720
+    Braking:
+      RawValue: 589824
+    DefaultSpeed:
+      RawValue: 327680
+    MinSpeed:
+      RawValue: 65536
+    MaxSpeed:
+      RawValue: 655360
+    DefaultSpeedRotationSpeed:
+      RawValue: 13107
+    MaxSpeedRotationTime:
+      RawValue: 6553

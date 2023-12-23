@@ -1,0 +1,3 @@
+component BlockDestroyable {
+    FP OnExplosionTTL;
+}

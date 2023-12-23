@@ -1,0 +1,8 @@
+asset BombConfig;
+
+component Bomb {
+    asset_ref<BombConfig> Config;
+    [ExcludeFromPrototype] byte Reach;
+    [ExcludeFromPrototype] PlayerRef OwnerId;
+    [ExcludeFromPrototype] EntityRef OwnerRef;
+}

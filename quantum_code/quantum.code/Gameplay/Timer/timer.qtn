@@ -1,0 +1,3 @@
+component Timer {
+    [ExcludeFromPrototype] int Tick;
+}

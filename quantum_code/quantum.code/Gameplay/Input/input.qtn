@@ -1,0 +1,7 @@
+input {
+    Button MoveUp;
+    Button MoveDown;
+    Button MoveLeft;
+    Button MoveRight;
+    Button PlaceBomb;
+}

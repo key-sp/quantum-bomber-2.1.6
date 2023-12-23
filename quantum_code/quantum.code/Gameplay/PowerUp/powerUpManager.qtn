@@ -1,0 +1,5 @@
+﻿singleton component PowerUpManager{
+    list<asset_ref<EntityPrototype>> PowerUpPrototypes;
+    byte SpawnProbability;
+    [ExcludeFromPrototype] list<FPVector2> SpawnPositions;
+}

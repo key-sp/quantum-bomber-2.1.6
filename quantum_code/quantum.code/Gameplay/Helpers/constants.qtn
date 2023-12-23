@@ -1,0 +1,7 @@
+﻿#define CARDINAL_DIRECTION_COUNT 4
+#define INTERCARDINAL_DIRECTION_COUNT 8
+#define MAX_PLAYER_COUNT 20
+
+// Defines absolute max player count allowed by the simulation.
+// If no max_players is defined explicitly, Quantum sets uses a value of 6 by default.
+#pragma max_players MAX_PLAYER_COUNT

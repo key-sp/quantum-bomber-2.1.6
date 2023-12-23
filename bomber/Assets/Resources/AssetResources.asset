@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
+  m_Name: AssetResources
+  m_EditorClassIdentifier: 
+  AssetBundlesGroup:
+    _resources: []
+  ResourcesGroup:
+    _resources:
+    - Path: Resources/DB/Configs/DefaultPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1
+      ResourcePath: DB/Configs/DefaultPhysicsMaterial
+    - Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
+      AssetRef:
+        Id:
+          Value: 2
+      ResourcePath: DB/Configs/DefaultNavMeshAgentConfig
+    - Path: Resources/DB/Configs/DefaultCharacterController2D
+      AssetRef:
+        Id:
+          Value: 3
+      ResourcePath: DB/Configs/DefaultCharacterController2D
+    - Path: Resources/DB/Configs/DefaultCharacterController3D
+      AssetRef:
+        Id:
+          Value: 4
+      ResourcePath: DB/Configs/DefaultCharacterController3D
+    - Path: Resources/DB/Configs/SimulationConfig
+      AssetRef:
+        Id:
+          Value: 5
+      ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/QPrefabs/PowerUpSpeedUp - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 202271125306394467
+      ResourcePath: DB/QPrefabs/PowerUpSpeedUp - QPrefab
+    - Path: Resources/DB/QPrefabs/BomberMovement
+      AssetRef:
+        Id:
+          Value: 595998458359304992
+      ResourcePath: DB/QPrefabs/BomberMovement
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|TrueDecision_1q0emfp2hkmBzFt
+      AssetRef:
+        Id:
+          Value: 719659580203234791
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|GameStatePlayingSetupAction_DfPgHK7UHkeu5xE
+      AssetRef:
+        Id:
+          Value: 960522665366446135
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/QPrefabs/BomberAbilityPlaceBomb
+      AssetRef:
+        Id:
+          Value: 1097316572483798736
+      ResourcePath: DB/QPrefabs/BomberAbilityPlaceBomb
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|State_Xi7FTX5M7Emsm8z
+      AssetRef:
+        Id:
+          Value: 1188262306078379497
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/QPrefabs/Bomber - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 1209667338165732941
+      ResourcePath: DB/QPrefabs/Bomber - QPrefab
+    - Path: Resources/DB/QPrefabs/Bomber - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1296816727731503650
+      ResourcePath: DB/QPrefabs/Bomber - QPrefab
+    - Path: Resources/DB/QPrefabs/BlockDestroyable - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 1310399996938138876
+      ResourcePath: DB/QPrefabs/BlockDestroyable - QPrefab
+    - Path: Resources/DB/QPrefabs/PowerUpManager|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1324171398333101285
+      ResourcePath: DB/QPrefabs/PowerUpManager
+    - Path: Resources/DB/QPrefabs/Bomb - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 1325692883484034956
+      ResourcePath: DB/QPrefabs/Bomb - QPrefab
+    - Path: Resources/DB/QPrefabs/BombConfig
+      AssetRef:
+        Id:
+          Value: 1571828122443940263
+      ResourcePath: DB/QPrefabs/BombConfig
+    - Path: Resources/DB/QPrefabs/PowerUpExplosionReachUp - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1605779766074364679
+      ResourcePath: DB/QPrefabs/PowerUpExplosionReachUp - QPrefab
+    - Path: Resources/DB/Map1
+      AssetRef:
+        Id:
+          Value: 1710471675203725834
+      ResourcePath: DB/Map1
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|GameStatePlayingEndDecision_fv53UXa-TUeSzpk
+      AssetRef:
+        Id:
+          Value: 1716076074350805968
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM
+      AssetRef:
+        Id:
+          Value: 1745685144216254914
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|GameStateEndingSetupAction_eti7LWGh5UusQm6
+      AssetRef:
+        Id:
+          Value: 2064665655740003705
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|GameStateStartingEndDecision_Ea-wmFWMLECndk8
+      AssetRef:
+        Id:
+          Value: 2271615051332052397
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/QPrefabs/BlockDestroyable - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2447745877354488316
+      ResourcePath: DB/QPrefabs/BlockDestroyable - QPrefab
+    - Path: Resources/DB/QPrefabs/PowerUpSpeedUp - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2647800568383077169
+      ResourcePath: DB/QPrefabs/PowerUpSpeedUp - QPrefab
+    - Path: Resources/DB/QPrefabs/GameSessionState - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 2730494940548209898
+      ResourcePath: DB/QPrefabs/GameSessionState - QPrefab
+    - Path: Resources/DB/QPrefabs/GameSessionState - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2731459712966013346
+      ResourcePath: DB/QPrefabs/GameSessionState - QPrefab
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|State_L689P0ZvYEuhyzx
+      AssetRef:
+        Id:
+          Value: 2769411713095840795
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/QPrefabs/BomberConfig
+      AssetRef:
+        Id:
+          Value: 2843902781557475222
+      ResourcePath: DB/QPrefabs/BomberConfig
+    - Path: Resources/DB/Map1_mesh
+      AssetRef:
+        Id:
+          Value: 3285368879942277265
+      ResourcePath: DB/Map1_mesh
+    - Path: Resources/DB/QPrefabs/PowerUpBombAmountUp - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3574613584731373909
+      ResourcePath: DB/QPrefabs/PowerUpBombAmountUp - QPrefab
+    - Path: Resources/DB/QPrefabs/PowerUpBombAmountUp - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 3677454365777346512
+      ResourcePath: DB/QPrefabs/PowerUpBombAmountUp - QPrefab
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|State_oNzR3WVyfUa4O0J
+      AssetRef:
+        Id:
+          Value: 3878079495763445971
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/QPrefabs/Explosion - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 4154991723710750153
+      ResourcePath: DB/QPrefabs/Explosion - QPrefab
+    - Path: Resources/DB/QPrefabs/Bomb - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4230958670899483534
+      ResourcePath: DB/QPrefabs/Bomb - QPrefab
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|GameStateSetupAction_hqnPoNGd5E-UPgJ
+      AssetRef:
+        Id:
+          Value: 4299384977317286961
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/CircuitExport/HFSM_Assets/GameStateHFSM|State_tipGQ7jOak-NsGB
+      AssetRef:
+        Id:
+          Value: 4365119392102274088
+      ResourcePath: DB/CircuitExport/HFSM_Assets/GameStateHFSM
+    - Path: Resources/DB/QPrefabs/PowerUpExplosionReachUp - QPrefab|EntityView
+      AssetRef:
+        Id:
+          Value: 4369227656881637008
+      ResourcePath: DB/QPrefabs/PowerUpExplosionReachUp - QPrefab
+    - Path: Resources/DB/QPrefabs/Explosion - QPrefab|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4595077316362807659
+      ResourcePath: DB/QPrefabs/Explosion - QPrefab

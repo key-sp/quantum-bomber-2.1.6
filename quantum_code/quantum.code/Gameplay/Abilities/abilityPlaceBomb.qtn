@@ -1,0 +1,9 @@
+asset AbilityPlaceBombConfig;
+
+component AbilityPlaceBomb {
+    asset_ref<AbilityPlaceBombConfig> Config;
+    [ExcludeFromPrototype] bool WantsToPlaceBomb;
+    [ExcludeFromPrototype] byte CurrentlyActiveBombs;
+    [ExcludeFromPrototype] byte BombsAmount;
+    [ExcludeFromPrototype] byte BombReach;
+}

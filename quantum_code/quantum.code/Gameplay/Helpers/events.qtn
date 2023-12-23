@@ -1,0 +1,7 @@
+﻿event OnUpdatePlayerColor{
+    PlayerRef playerRef;
+}
+
+event OnBurnBlock{
+    EntityRef entityRef;
+}

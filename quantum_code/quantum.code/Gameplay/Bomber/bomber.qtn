@@ -1,0 +1,6 @@
+asset BomberConfig;
+
+component Bomber {
+    asset_ref<BomberConfig> Config;
+    [ExcludeFromPrototype] bool IsDead;
+}

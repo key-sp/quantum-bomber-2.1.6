@@ -1,0 +1,8 @@
+flags CellType : Byte {
+    Empty,
+    BlockFix,
+    BlockDestroyable,
+    Bomb,
+    Explosion,
+    PowerUp,
+}

@@ -1,0 +1,5 @@
+﻿flags GridType : Byte {
+    Square,
+    Landscape,
+    Portrait,
+}

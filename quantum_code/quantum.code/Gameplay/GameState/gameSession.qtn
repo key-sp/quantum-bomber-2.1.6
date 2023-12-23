@@ -1,0 +1,6 @@
+singleton component GameSession {
+    FP TimeUntilStart;
+    FP TimeUntilDisconnect;
+    [ExcludeFromPrototype] GameSessionState State;
+    [ExcludeFromPrototype] PlayerRef Winner;
+}

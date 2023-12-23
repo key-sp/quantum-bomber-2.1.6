@@ -1,0 +1,5 @@
+﻿component PowerUp {
+    PowerUpType Type;
+    FP Amount; 
+    bool MaxOutValue;
+}

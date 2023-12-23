@@ -1,0 +1,10 @@
+component Explosion {
+    FP CellSpreadTime;
+    [ExcludeFromPrototype] bool AllDirectionsBlocked;
+    [ExcludeFromPrototype] array<bool>[CARDINAL_DIRECTION_COUNT] DirectionBlocked;
+    [ExcludeFromPrototype] array<byte>[CARDINAL_DIRECTION_COUNT] ReachDirection;
+    [ExcludeFromPrototype] byte MaxReach;
+    [ExcludeFromPrototype] byte CurrentReach;
+    [ExcludeFromPrototype] PlayerRef OwnerId;
+    [ExcludeFromPrototype] EntityRef OwnerRef;
+}

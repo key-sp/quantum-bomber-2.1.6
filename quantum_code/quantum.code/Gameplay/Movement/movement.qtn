@@ -1,0 +1,17 @@
+asset MovementConfig;
+
+component Movement {
+    asset_ref<MovementConfig> Config;
+    [ExcludeFromPrototype] FP CurrentSpeed;
+    [ExcludeFromPrototype] FP MaxSpeed;
+    [ExcludeFromPrototype] Boolean IsMoving;
+    [ExcludeFromPrototype] Boolean LastMoveWasHorizontal;
+    [ExcludeFromPrototype] Direction LastNewInput;
+    [ExcludeFromPrototype] Direction CurrentInput;
+    [ExcludeFromPrototype] FPVector2 MoveDirection;
+    [ExcludeFromPrototype] FP StartRotation;
+    [ExcludeFromPrototype] FP TargetRotation;
+    [ExcludeFromPrototype] int RotationStartTick;
+    [ExcludeFromPrototype] FP RotationDuration;
+    [ExcludeFromPrototype] FP RotationTimeMultiplier;
+}
